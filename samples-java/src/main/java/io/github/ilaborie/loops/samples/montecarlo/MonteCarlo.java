@@ -88,5 +88,4 @@ public final class MonteCarlo {
         return compute(count, inCircle);
     }
 
-
 }

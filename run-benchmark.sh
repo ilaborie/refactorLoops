@@ -13,28 +13,33 @@
 #W_ITER=10
 #FORMAT=json
 
-FORK=5
-ITER=10
-W_ITER=10
+FORK=2
+ITER=5
+W_ITER=5
 FORMAT=json
 
 JAR=perfs/target/benchmarks.jar
 
-# Compile Benchmarks
+######################
+# Compile Benchmarks #
+######################
 echo "Compile benchmarks ..."
 mvn clean package -q
 
-# SDKMAN!
+###########
+# SDKMAN! #
+###########
+# See https://sdkman.io/
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
 sdkman_auto_answer=true
 
 # JVM List
 JvmList=(
-    "8.0.202.hs-adpt"
-    "11.0.2-open"
-    "12.0.0-open"
-    "1.0.0-rc-14-grl"
+    # "8.0.212.hs-adpt"
+     "11.0.3.hs-adpt"
+    # "12.0.1.hs-adp"
+     "19.0.0-grl"
 )
 for Jvm in ${JvmList[*]}
 do

@@ -2,7 +2,6 @@ package io.github.ilaborie.loops.samples.montecarlo;
 
 import java.util.Random;
 import java.util.SplittableRandom;
-import java.util.stream.Stream;
 
 public class Point {
     private final double x;
@@ -17,7 +16,7 @@ public class Point {
         return (x * x) + (y * y) <= 1;
     }
 
-    // FIXME try SplittableRandom
+
     private static final Random rnd = new Random();
 
     public static Point newPoint() {

@@ -43,7 +43,7 @@ import org.openjdk.jmh.annotations.State;
 public class MonteCarloBenchmark {
 
 
-    @Param({"100", "1000", "10000", "100000", "1000000", "10000000"})
+    @Param({"1000", "10000000"})
     public int count;
 
     // Java
@@ -114,6 +114,7 @@ public class MonteCarloBenchmark {
     public double monteCarlo_Scala_for() {
         return MonteCarloScala$.MODULE$.monteCarloFor(count);
     }
+
     @Benchmark
     public double monteCarlo_Scala_recursion() {
         return MonteCarloScala$.MODULE$.monteCarloRecursion(count);
@@ -128,6 +129,7 @@ public class MonteCarloBenchmark {
     public double monteCarlo_Scala_collection_parallel() {
         return MonteCarloScala$.MODULE$.monteCarloCollectionParallel(count);
     }
+
     @Benchmark
     public double monteCarlo_Scala_stream() {
         return MonteCarloScala$.MODULE$.monteCarloStream(count);
@@ -137,9 +139,25 @@ public class MonteCarloBenchmark {
     public double monteCarlo_Scala_stream_parallel() {
         return MonteCarloScala$.MODULE$.monteCarloStreamParallel(count);
     }
+
     @Benchmark
     public double monteCarlo_Scala_stream_parallel2() {
         return MonteCarloScala$.MODULE$.monteCarloStreamParallel2(count);
+    }
+
+    @Benchmark
+    public double monteCarlo_Scala_lazylist() {
+        return MonteCarloScala$.MODULE$.monteCarloLazyList(count);
+    }
+
+    @Benchmark
+    public double monteCarlo_Scala_lazylist_parallel() {
+        return MonteCarloScala$.MODULE$.monteCarloLazyListParallel(count);
+    }
+
+    @Benchmark
+    public double monteCarlo_Scala_lazylist_parallel2() {
+        return MonteCarloScala$.MODULE$.monteCarloLazyListParallel2(count);
     }
 
 }

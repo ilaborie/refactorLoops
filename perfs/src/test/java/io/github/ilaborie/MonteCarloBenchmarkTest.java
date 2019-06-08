@@ -31,5 +31,8 @@ public class MonteCarloBenchmarkTest {
         benchmark.monteCarlo_Scala_stream();
         benchmark.monteCarlo_Scala_stream_parallel();
         benchmark.monteCarlo_Scala_stream_parallel2();
+        benchmark.monteCarlo_Scala_lazylist();
+        benchmark.monteCarlo_Scala_lazylist_parallel();
+        benchmark.monteCarlo_Scala_lazylist_parallel2();
     }
 }

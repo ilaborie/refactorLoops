@@ -57,6 +57,7 @@ object MonteCarloScala {
 
 
   def monteCarloCollectionParallel(count: Int): Double = {
+    import scala.collection.parallel.CollectionConverters._
     val inCircle = (1 to count).par
       .map(_ => newPoint())
       .count(_.inCircle())
@@ -65,6 +66,7 @@ object MonteCarloScala {
   }
 
   def monteCarloCollectionParallel2(count: Int): Double = {
+    import scala.collection.parallel.CollectionConverters._
     val inCircle = (1 to count).par
       .map(_ => newPoint2())
       .count(_.inCircle())
@@ -84,6 +86,7 @@ object MonteCarloScala {
   }
 
   def monteCarloStreamParallel(count: Int): Double = {
+    import scala.collection.parallel.CollectionConverters._
     val inCircle = Stream.fill(count) {
       newPoint()
     }
@@ -94,7 +97,39 @@ object MonteCarloScala {
   }
 
   def monteCarloStreamParallel2(count: Int): Double = {
+    import scala.collection.parallel.CollectionConverters._
     val inCircle = Stream.fill(count) {
+      newPoint2()
+    }
+      .par
+      .count(_.inCircle())
+
+    compute(count, inCircle)
+  }
+
+  def monteCarloLazyList(count: Int): Double = {
+    val inCircle = LazyList.fill(count) {
+      newPoint()
+    }
+      .count(_.inCircle())
+
+    compute(count, inCircle)
+  }
+
+  def monteCarloLazyListParallel(count: Int): Double = {
+    import scala.collection.parallel.CollectionConverters._
+    val inCircle = LazyList.fill(count) {
+      newPoint()
+    }
+      .par
+      .count(_.inCircle())
+
+    compute(count, inCircle)
+  }
+
+  def monteCarloLazyListParallel2(count: Int): Double = {
+    import scala.collection.parallel.CollectionConverters._
+    val inCircle = LazyList.fill(count) {
       newPoint2()
     }
       .par
