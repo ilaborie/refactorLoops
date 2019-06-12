@@ -17,14 +17,12 @@ public class Point {
     }
 
 
-    private static final Random rnd = new Random();
-
+    private static final Random rnd = new Random(0);
     public static Point newPoint() {
         return new Point(rnd.nextDouble(), rnd.nextDouble());
     }
 
-    private static final SplittableRandom rnd2 = new SplittableRandom();
-
+    private static final SplittableRandom rnd2 = new SplittableRandom(0);
     public static Point newPoint2() {
         return new Point(rnd2.nextDouble(), rnd2.nextDouble());
     }
