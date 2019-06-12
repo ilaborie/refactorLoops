@@ -11,12 +11,11 @@ case class ScalaPoint(x: Double, y: Double) {
 
 object ScalaPoint {
 
-  private val rnd = new Random()
+  private val rnd = new Random(0)
   def newPoint(): ScalaPoint =
     ScalaPoint(rnd.nextDouble(), rnd.nextDouble())
 
-  private val rnd2 = new SplittableRandom()
-
+  private val rnd2 = new SplittableRandom(0)
   def newPoint2(): ScalaPoint =
     ScalaPoint(rnd2.nextDouble(), rnd2.nextDouble())
 

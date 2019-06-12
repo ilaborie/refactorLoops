@@ -20,7 +20,6 @@
     </properties>
 
     <modules>
-        <module>commons</module>
         <module>samples-java</module>
         <module>samples-kotlin</module>
         <module>samples-scala</module>
