@@ -1,5 +1,10 @@
 package io.github.ilaborie.loops.samples.montecarlo
 
+import kotlinx.coroutines.ExperimentalCoroutinesApi
+import kotlinx.coroutines.flow.count
+import kotlinx.coroutines.flow.flow
+import kotlinx.coroutines.flow.take
+import kotlinx.coroutines.runBlocking
 import java.text.NumberFormat
 
 
@@ -47,7 +52,7 @@ fun monteCarloCollection(count: Int): Double {
     return compute(count, inCircle)
 }
 
-
+// Sequences (collections lazy)
 fun monteCarloSequence(count: Int): Double {
     val inCircle = generateSequence { newPoint() }
         .take(count)
@@ -72,6 +77,48 @@ fun monteCarloSequenceParallel2(count: Int): Double {
     }
         .take(count)
         .count { it.inCircle() }
+
+    return compute(count, inCircle)
+}
+
+fun monteCarloSequenceParallelOther(count: Int): Double {
+    val inCircle = sequence {
+        yieldAll(generateSequence { newPoint2() })
+    }
+        .take(count)
+        .count {
+            //            println("Thread ${Thread.currentThread().name}")
+            it.inCircle()
+        }
+
+    return compute(count, inCircle)
+}
+
+fun monteCarloSequenceParallelOtherAlex(count: Int): Double {
+    val inCircle = (1..count).toList()
+        .parallelStream()
+        .map { newPoint() }
+        .filter {
+            //            println("Thread ${Thread.currentThread().name}")
+            it.inCircle()
+        }
+        .count()
+
+    return compute(count, inCircle.toInt())
+}
+
+// Flow
+@ExperimentalCoroutinesApi
+fun monteCarloFlow(count: Int): Double {
+    val inCircle = runBlocking {
+        flow {
+            while (true) {
+                emit(newPoint())
+            }
+        }
+            .take(count)
+            .count { it.inCircle() }
+    }
 
     return compute(count, inCircle)
 }

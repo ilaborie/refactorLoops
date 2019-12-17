@@ -104,6 +104,21 @@ public class MonteCarloBenchmark {
         return MonteCarloKt.monteCarloSequenceParallel2(count);
     }
 
+    @Benchmark
+    public double monteCarlo_Kotlin_sequence_other() {
+        return MonteCarloKt.monteCarloSequenceParallelOther(count);
+    }
+
+    @Benchmark
+    public double monteCarlo_Kotlin_sequence_other_alex() {
+        return MonteCarloKt.monteCarloSequenceParallelOtherAlex(count);
+    }
+
+    @Benchmark
+    public double monteCarlo_Kotlin_flow() {
+        return MonteCarloKt.monteCarloFlow(count);
+    }
+
     // Scala
     @Benchmark
     public double monteCarlo_Scala_for() {

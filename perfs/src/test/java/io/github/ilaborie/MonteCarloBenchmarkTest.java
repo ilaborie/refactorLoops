@@ -19,10 +19,11 @@ public class MonteCarloBenchmarkTest {
         benchmark.monteCarlo_Kotlin_for();
         benchmark.monteCarlo_Kotlin_recursion();
         benchmark.monteCarlo_Kotlin_collection();
-        benchmark.monteCarlo_Kotlin_collection_lazy();
-        benchmark.monteCarlo_Kotlin_lazy();
-        benchmark.monteCarlo_Kotlin_lazy_parallel();
-        benchmark.monteCarlo_Kotlin_lazy_parallel2();
+        benchmark.monteCarlo_Kotlin_sequence();
+        benchmark.monteCarlo_Kotlin_sequence_other();
+        benchmark.monteCarlo_Kotlin_sequence();
+        benchmark.monteCarlo_Kotlin_sequence_parallel2();
+        benchmark.monteCarlo_Kotlin_flow();
 
         benchmark.monteCarlo_Scala_for();
         benchmark.monteCarlo_Scala_recursion();
