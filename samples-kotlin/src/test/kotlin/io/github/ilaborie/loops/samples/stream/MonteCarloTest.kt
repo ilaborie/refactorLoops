@@ -1,6 +1,7 @@
 package io.github.ilaborie.loops.samples.stream
 
 import io.github.ilaborie.loops.samples.montecarlo.*
+import kotlinx.coroutines.ExperimentalCoroutinesApi
 import org.junit.Assert.assertEquals
 import org.junit.Test
 
@@ -46,6 +47,24 @@ class MonteCarloTest {
     @Test
     fun stream_parallel_should_compute_pi2() {
         test { monteCarloSequenceParallel2(it) }
+    }
+
+    @Test
+    fun stream_parallel_should_compute_pi_other() {
+        test { monteCarloSequenceParallelOther(it) }
+    }
+
+    @Test
+    fun stream_parallel_should_compute_pi_other_alex() {
+        test { monteCarloSequenceParallelOtherAlex(it) }
+    }
+
+    @Test
+    @ExperimentalCoroutinesApi
+    fun stream_parallel_should_compute_pi_flow() {
+        test {
+            monteCarloFlow(it)
+        }
     }
 
 }

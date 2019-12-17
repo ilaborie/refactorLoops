@@ -90,23 +90,33 @@ public class MonteCarloBenchmark {
     }
 
     @Benchmark
-    public double monteCarlo_Kotlin_collection_lazy() {
+    public double monteCarlo_Kotlin_sequence() {
         return MonteCarloKt.monteCarloSequence(count);
     }
 
     @Benchmark
-    public double monteCarlo_Kotlin_lazy() {
-        return MonteCarloKt.monteCarloSequence(count);
-    }
-
-    @Benchmark
-    public double monteCarlo_Kotlin_lazy_parallel() {
+    public double monteCarlo_Kotlin_sequence_parallel() {
         return MonteCarloKt.monteCarloSequenceParallel(count);
     }
 
     @Benchmark
-    public double monteCarlo_Kotlin_lazy_parallel2() {
+    public double monteCarlo_Kotlin_sequence_parallel2() {
         return MonteCarloKt.monteCarloSequenceParallel2(count);
+    }
+
+    @Benchmark
+    public double monteCarlo_Kotlin_sequence_other() {
+        return MonteCarloKt.monteCarloSequenceParallelOther(count);
+    }
+
+    @Benchmark
+    public double monteCarlo_Kotlin_sequence_other_alex() {
+        return MonteCarloKt.monteCarloSequenceParallelOtherAlex(count);
+    }
+
+    @Benchmark
+    public double monteCarlo_Kotlin_flow() {
+        return MonteCarloKt.monteCarloFlow(count);
     }
 
     // Scala
