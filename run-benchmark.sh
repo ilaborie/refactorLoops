@@ -36,11 +36,9 @@ sdkman_auto_answer=true
 
 # JVM List
 JvmList=(
-    "8.0.232.hs-adpt"
     "11.0.5.hs-adpt"
     "13.0.1.hs-adp"
     "19.3.0.r11-grl"
-    "19.3.0.r8-grl"
 )
 for Jvm in ${JvmList[*]}
 do
@@ -59,5 +57,5 @@ done
 
 
 echo "Rollback to default Java"
-sdk use java
+sdk use java 11.0.5.hs-adpt
 

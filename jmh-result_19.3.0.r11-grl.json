@@ -1,0 +1,2810 @@
+[
+    {
+        "jmhVersion" : "1.22",
+        "benchmark" : "io.github.ilaborie.MonteCarloBenchmark.monteCarlo_Java_for",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "/Users/igor/.sdkman/candidates/java/19.3.0.r11-grl/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "11.0.5",
+        "vmName" : "OpenJDK 64-Bit GraalVM CE 19.3.0",
+        "vmVersion" : "11.0.5+10-jvmci-19.3-b05-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "count" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 24576.033929540277,
+            "scoreError" : 17.373802028595918,
+            "scoreConfidence" : [
+                24558.66012751168,
+                24593.407731568874
+            ],
+            "scorePercentiles" : {
+                "0.0" : 24553.40527120758,
+                "50.0" : 24577.703403064686,
+                "90.0" : 24589.272342680328,
+                "95.0" : 24589.444577173643,
+                "99.0" : 24589.444577173643,
+                "99.9" : 24589.444577173643,
+                "99.99" : 24589.444577173643,
+                "99.999" : 24589.444577173643,
+                "99.9999" : 24589.444577173643,
+                "100.0" : 24589.444577173643
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    24575.489060592063,
+                    24570.80342853577,
+                    24570.589834629187,
+                    24587.72223224049,
+                    24589.444577173643
+                ],
+                [
+                    24586.307144565657,
+                    24579.91774553731,
+                    24582.480810454872,
+                    24553.40527120758,
+                    24564.17919046622
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.22",
+        "benchmark" : "io.github.ilaborie.MonteCarloBenchmark.monteCarlo_Java_for",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "/Users/igor/.sdkman/candidates/java/19.3.0.r11-grl/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "11.0.5",
+        "vmName" : "OpenJDK 64-Bit GraalVM CE 19.3.0",
+        "vmVersion" : "11.0.5+10-jvmci-19.3-b05-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "count" : "10000000"
+        },
+        "primaryMetric" : {
+            "score" : 2.4541099591689615,
+            "scoreError" : 0.0029803955555836566,
+            "scoreConfidence" : [
+                2.4511295636133776,
+                2.4570903547245453
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2.451064855001472,
+                "50.0" : 2.4538862383027764,
+                "90.0" : 2.457469899625846,
+                "95.0" : 2.457571017687729,
+                "99.0" : 2.457571017687729,
+                "99.9" : 2.457571017687729,
+                "99.99" : 2.457571017687729,
+                "99.999" : 2.457571017687729,
+                "99.9999" : 2.457571017687729,
+                "100.0" : 2.457571017687729
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    2.452537372375728,
+                    2.4537657725859154,
+                    2.4532322690508397,
+                    2.4526594712889804,
+                    2.451064855001472
+                ],
+                [
+                    2.4540937589563687,
+                    2.454006704019638,
+                    2.4556085336540434,
+                    2.457571017687729,
+                    2.456559837068901
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.22",
+        "benchmark" : "io.github.ilaborie.MonteCarloBenchmark.monteCarlo_Java_lazy",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "/Users/igor/.sdkman/candidates/java/19.3.0.r11-grl/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "11.0.5",
+        "vmName" : "OpenJDK 64-Bit GraalVM CE 19.3.0",
+        "vmVersion" : "11.0.5+10-jvmci-19.3-b05-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "count" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 21928.804195557415,
+            "scoreError" : 19.92914110469888,
+            "scoreConfidence" : [
+                21908.875054452717,
+                21948.733336662113
+            ],
+            "scorePercentiles" : {
+                "0.0" : 21903.635226720857,
+                "50.0" : 21932.283580617324,
+                "90.0" : 21944.675473849715,
+                "95.0" : 21945.162223680756,
+                "99.0" : 21945.162223680756,
+                "99.9" : 21945.162223680756,
+                "99.99" : 21945.162223680756,
+                "99.999" : 21945.162223680756,
+                "99.9999" : 21945.162223680756,
+                "100.0" : 21945.162223680756
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    21934.546759865436,
+                    21945.162223680756,
+                    21924.038962213603,
+                    21929.35289436554,
+                    21940.294725370328
+                ],
+                [
+                    21932.061884964256,
+                    21937.15305378602,
+                    21909.29094833697,
+                    21932.505276270396,
+                    21903.635226720857
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.22",
+        "benchmark" : "io.github.ilaborie.MonteCarloBenchmark.monteCarlo_Java_lazy",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "/Users/igor/.sdkman/candidates/java/19.3.0.r11-grl/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "11.0.5",
+        "vmName" : "OpenJDK 64-Bit GraalVM CE 19.3.0",
+        "vmVersion" : "11.0.5+10-jvmci-19.3-b05-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "count" : "10000000"
+        },
+        "primaryMetric" : {
+            "score" : 2.1759724486932286,
+            "scoreError" : 0.03593162411709291,
+            "scoreConfidence" : [
+                2.1400408245761358,
+                2.2119040728103214
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2.1266100319508427,
+                "50.0" : 2.1825117994249954,
+                "90.0" : 2.1985234765998145,
+                "95.0" : 2.1986232612492995,
+                "99.0" : 2.1986232612492995,
+                "99.9" : 2.1986232612492995,
+                "99.99" : 2.1986232612492995,
+                "99.999" : 2.1986232612492995,
+                "99.9999" : 2.1986232612492995,
+                "100.0" : 2.1986232612492995
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    2.17084858780742,
+                    2.1266100319508427,
+                    2.1760538829176657,
+                    2.1917406240300434,
+                    2.15940429769235
+                ],
+                [
+                    2.153192403194883,
+                    2.1889697159323256,
+                    2.1966562674030095,
+                    2.197625414754448,
+                    2.1986232612492995
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.22",
+        "benchmark" : "io.github.ilaborie.MonteCarloBenchmark.monteCarlo_Java_lazy_parallel",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "/Users/igor/.sdkman/candidates/java/19.3.0.r11-grl/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "11.0.5",
+        "vmName" : "OpenJDK 64-Bit GraalVM CE 19.3.0",
+        "vmVersion" : "11.0.5+10-jvmci-19.3-b05-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "count" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 2010.0145109347436,
+            "scoreError" : 22.167319918220716,
+            "scoreConfidence" : [
+                1987.8471910165229,
+                2032.1818308529644
+            ],
+            "scorePercentiles" : {
+                "0.0" : 1991.0400091836461,
+                "50.0" : 2008.7082531414974,
+                "90.0" : 2032.020156732406,
+                "95.0" : 2032.678753620367,
+                "99.0" : 2032.678753620367,
+                "99.9" : 2032.678753620367,
+                "99.99" : 2032.678753620367,
+                "99.999" : 2032.678753620367,
+                "99.9999" : 2032.678753620367,
+                "100.0" : 2032.678753620367
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    2014.7440038115938,
+                    2001.1131038404424,
+                    1994.9421018648393,
+                    2002.672502471401,
+                    2026.092784740757
+                ],
+                [
+                    2032.678753620367,
+                    2025.1107968199674,
+                    2014.7579085029963,
+                    1996.993144491426,
+                    1991.0400091836461
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.22",
+        "benchmark" : "io.github.ilaborie.MonteCarloBenchmark.monteCarlo_Java_lazy_parallel",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "/Users/igor/.sdkman/candidates/java/19.3.0.r11-grl/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "11.0.5",
+        "vmName" : "OpenJDK 64-Bit GraalVM CE 19.3.0",
+        "vmVersion" : "11.0.5+10-jvmci-19.3-b05-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "count" : "10000000"
+        },
+        "primaryMetric" : {
+            "score" : 0.22771022758441611,
+            "scoreError" : 7.529131860245454E-4,
+            "scoreConfidence" : [
+                0.22695731439839156,
+                0.22846314077044066
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.2269551359011405,
+                "50.0" : 0.22766043689077087,
+                "90.0" : 0.22871478956514515,
+                "95.0" : 0.22879455632675225,
+                "99.0" : 0.22879455632675225,
+                "99.9" : 0.22879455632675225,
+                "99.99" : 0.22879455632675225,
+                "99.999" : 0.22879455632675225,
+                "99.9999" : 0.22879455632675225,
+                "100.0" : 0.22879455632675225
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    0.22790884207064088,
+                    0.227583196942401,
+                    0.2269551359011405,
+                    0.22730725329861548,
+                    0.2275976975587228
+                ],
+                [
+                    0.22789711696233164,
+                    0.22733841185005618,
+                    0.22799688871068124,
+                    0.22772317622281896,
+                    0.22879455632675225
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.22",
+        "benchmark" : "io.github.ilaborie.MonteCarloBenchmark.monteCarlo_Java_lazy_parallel2",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "/Users/igor/.sdkman/candidates/java/19.3.0.r11-grl/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "11.0.5",
+        "vmName" : "OpenJDK 64-Bit GraalVM CE 19.3.0",
+        "vmVersion" : "11.0.5+10-jvmci-19.3-b05-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "count" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 25358.719382628675,
+            "scoreError" : 1388.7194501434824,
+            "scoreConfidence" : [
+                23969.999932485192,
+                26747.438832772157
+            ],
+            "scorePercentiles" : {
+                "0.0" : 24237.96318189735,
+                "50.0" : 25418.554866256716,
+                "90.0" : 26805.762801349552,
+                "95.0" : 26873.14917909941,
+                "99.0" : 26873.14917909941,
+                "99.9" : 26873.14917909941,
+                "99.99" : 26873.14917909941,
+                "99.999" : 26873.14917909941,
+                "99.9999" : 26873.14917909941,
+                "100.0" : 26873.14917909941
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    26873.14917909941,
+                    25928.46424800899,
+                    25920.865327187083,
+                    25925.286061327573,
+                    26199.285401600828
+                ],
+                [
+                    24681.008095249155,
+                    24650.20878146647,
+                    24916.244405326346,
+                    24237.96318189735,
+                    24254.719145123567
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.22",
+        "benchmark" : "io.github.ilaborie.MonteCarloBenchmark.monteCarlo_Java_lazy_parallel2",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "/Users/igor/.sdkman/candidates/java/19.3.0.r11-grl/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "11.0.5",
+        "vmName" : "OpenJDK 64-Bit GraalVM CE 19.3.0",
+        "vmVersion" : "11.0.5+10-jvmci-19.3-b05-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "count" : "10000000"
+        },
+        "primaryMetric" : {
+            "score" : 11.247509974336648,
+            "scoreError" : 0.07066995612094097,
+            "scoreConfidence" : [
+                11.176840018215707,
+                11.318179930457589
+            ],
+            "scorePercentiles" : {
+                "0.0" : 11.179258154222714,
+                "50.0" : 11.24973728208353,
+                "90.0" : 11.32310651360335,
+                "95.0" : 11.327256555494875,
+                "99.0" : 11.327256555494875,
+                "99.9" : 11.327256555494875,
+                "99.99" : 11.327256555494875,
+                "99.999" : 11.327256555494875,
+                "99.9999" : 11.327256555494875,
+                "100.0" : 11.327256555494875
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    11.216616335938994,
+                    11.206128968394358,
+                    11.271744006777078,
+                    11.285756136579613,
+                    11.327256555494875
+                ],
+                [
+                    11.284623627140315,
+                    11.231425525120649,
+                    11.179258154222714,
+                    11.204241394651481,
+                    11.268049039046408
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.22",
+        "benchmark" : "io.github.ilaborie.MonteCarloBenchmark.monteCarlo_Kotlin_collection",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "/Users/igor/.sdkman/candidates/java/19.3.0.r11-grl/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "11.0.5",
+        "vmName" : "OpenJDK 64-Bit GraalVM CE 19.3.0",
+        "vmVersion" : "11.0.5+10-jvmci-19.3-b05-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "count" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 21118.271048415398,
+            "scoreError" : 25.077522376438857,
+            "scoreConfidence" : [
+                21093.19352603896,
+                21143.348570791837
+            ],
+            "scorePercentiles" : {
+                "0.0" : 21097.554420508113,
+                "50.0" : 21120.200756004593,
+                "90.0" : 21139.80979250396,
+                "95.0" : 21139.97861481122,
+                "99.0" : 21139.97861481122,
+                "99.9" : 21139.97861481122,
+                "99.99" : 21139.97861481122,
+                "99.999" : 21139.97861481122,
+                "99.9999" : 21139.97861481122,
+                "100.0" : 21139.97861481122
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    21100.9400365782,
+                    21127.069545783004,
+                    21097.554420508113,
+                    21101.357985829716,
+                    21138.290391738592
+                ],
+                [
+                    21139.97861481122,
+                    21130.190519603886,
+                    21130.0659762465,
+                    21113.331966226182,
+                    21103.93102682857
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.22",
+        "benchmark" : "io.github.ilaborie.MonteCarloBenchmark.monteCarlo_Kotlin_collection",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "/Users/igor/.sdkman/candidates/java/19.3.0.r11-grl/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "11.0.5",
+        "vmName" : "OpenJDK 64-Bit GraalVM CE 19.3.0",
+        "vmVersion" : "11.0.5+10-jvmci-19.3-b05-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "count" : "10000000"
+        },
+        "primaryMetric" : {
+            "score" : 1.2454281987979816,
+            "scoreError" : 0.024110020439451995,
+            "scoreConfidence" : [
+                1.2213181783585296,
+                1.2695382192374336
+            ],
+            "scorePercentiles" : {
+                "0.0" : 1.215976441108217,
+                "50.0" : 1.250007865294716,
+                "90.0" : 1.26340937711137,
+                "95.0" : 1.2638932285540594,
+                "99.0" : 1.2638932285540594,
+                "99.9" : 1.2638932285540594,
+                "99.99" : 1.2638932285540594,
+                "99.999" : 1.2638932285540594,
+                "99.9999" : 1.2638932285540594,
+                "100.0" : 1.2638932285540594
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    1.2363341366357326,
+                    1.2560843777950468,
+                    1.224669108316348,
+                    1.243931352794385,
+                    1.215976441108217
+                ],
+                [
+                    1.2590547141271649,
+                    1.2563307101240238,
+                    1.2638932285540594,
+                    1.2567797113247596,
+                    1.241228207200081
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.22",
+        "benchmark" : "io.github.ilaborie.MonteCarloBenchmark.monteCarlo_Kotlin_flow",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "/Users/igor/.sdkman/candidates/java/19.3.0.r11-grl/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "11.0.5",
+        "vmName" : "OpenJDK 64-Bit GraalVM CE 19.3.0",
+        "vmVersion" : "11.0.5+10-jvmci-19.3-b05-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "count" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 19320.284102465073,
+            "scoreError" : 12.534131767811003,
+            "scoreConfidence" : [
+                19307.749970697263,
+                19332.818234232884
+            ],
+            "scorePercentiles" : {
+                "0.0" : 19307.578632668636,
+                "50.0" : 19318.559573706334,
+                "90.0" : 19333.980606233843,
+                "95.0" : 19334.28628912799,
+                "99.0" : 19334.28628912799,
+                "99.9" : 19334.28628912799,
+                "99.99" : 19334.28628912799,
+                "99.999" : 19334.28628912799,
+                "99.9999" : 19334.28628912799,
+                "100.0" : 19334.28628912799
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    19319.62407607245,
+                    19314.962845556605,
+                    19331.229460186507,
+                    19319.153365579077,
+                    19334.28628912799
+                ],
+                [
+                    19307.578632668636,
+                    19317.965781833595,
+                    19317.950260101312,
+                    19327.128328392926,
+                    19312.961985131613
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.22",
+        "benchmark" : "io.github.ilaborie.MonteCarloBenchmark.monteCarlo_Kotlin_flow",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "/Users/igor/.sdkman/candidates/java/19.3.0.r11-grl/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "11.0.5",
+        "vmName" : "OpenJDK 64-Bit GraalVM CE 19.3.0",
+        "vmVersion" : "11.0.5+10-jvmci-19.3-b05-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "count" : "10000000"
+        },
+        "primaryMetric" : {
+            "score" : 1.7938340659226426,
+            "scoreError" : 0.0015135054421640665,
+            "scoreConfidence" : [
+                1.7923205604804786,
+                1.7953475713648066
+            ],
+            "scorePercentiles" : {
+                "0.0" : 1.7917650424894236,
+                "50.0" : 1.7941162709257275,
+                "90.0" : 1.7948882371207593,
+                "95.0" : 1.7949199819277324,
+                "99.0" : 1.7949199819277324,
+                "99.9" : 1.7949199819277324,
+                "99.99" : 1.7949199819277324,
+                "99.999" : 1.7949199819277324,
+                "99.9999" : 1.7949199819277324,
+                "100.0" : 1.7949199819277324
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    1.792316553832475,
+                    1.7938169202617122,
+                    1.7943068524006907,
+                    1.7949199819277324,
+                    1.7940690642255466
+                ],
+                [
+                    1.794311168379392,
+                    1.7917650424894236,
+                    1.7941056773222173,
+                    1.7941268645292374,
+                    1.794602533858001
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.22",
+        "benchmark" : "io.github.ilaborie.MonteCarloBenchmark.monteCarlo_Kotlin_for",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "/Users/igor/.sdkman/candidates/java/19.3.0.r11-grl/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "11.0.5",
+        "vmName" : "OpenJDK 64-Bit GraalVM CE 19.3.0",
+        "vmVersion" : "11.0.5+10-jvmci-19.3-b05-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "count" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 24579.599205738596,
+            "scoreError" : 23.066063947970093,
+            "scoreConfidence" : [
+                24556.533141790627,
+                24602.665269686564
+            ],
+            "scorePercentiles" : {
+                "0.0" : 24543.988849405738,
+                "50.0" : 24585.368517228657,
+                "90.0" : 24592.47090080032,
+                "95.0" : 24592.506101974534,
+                "99.0" : 24592.506101974534,
+                "99.9" : 24592.506101974534,
+                "99.99" : 24592.506101974534,
+                "99.999" : 24592.506101974534,
+                "99.9999" : 24592.506101974534,
+                "100.0" : 24592.506101974534
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    24583.925178152,
+                    24590.242641664332,
+                    24592.154090232394,
+                    24570.693921021095,
+                    24567.794453172784
+                ],
+                [
+                    24543.988849405738,
+                    24578.356492696235,
+                    24586.81185630531,
+                    24592.506101974534,
+                    24589.51847276156
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.22",
+        "benchmark" : "io.github.ilaborie.MonteCarloBenchmark.monteCarlo_Kotlin_for",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "/Users/igor/.sdkman/candidates/java/19.3.0.r11-grl/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "11.0.5",
+        "vmName" : "OpenJDK 64-Bit GraalVM CE 19.3.0",
+        "vmVersion" : "11.0.5+10-jvmci-19.3-b05-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "count" : "10000000"
+        },
+        "primaryMetric" : {
+            "score" : 2.455263274367888,
+            "scoreError" : 0.0023907023741519804,
+            "scoreConfidence" : [
+                2.452872571993736,
+                2.45765397674204
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2.4516735211225096,
+                "50.0" : 2.455768722849431,
+                "90.0" : 2.4566367377407383,
+                "95.0" : 2.456641056733938,
+                "99.0" : 2.456641056733938,
+                "99.9" : 2.456641056733938,
+                "99.99" : 2.456641056733938,
+                "99.999" : 2.456641056733938,
+                "99.9999" : 2.456641056733938,
+                "100.0" : 2.456641056733938
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    2.455804462004703,
+                    2.456641056733938,
+                    2.4516735211225096,
+                    2.4564057326783426,
+                    2.456597866801942
+                ],
+                [
+                    2.45573029723706,
+                    2.4557726789336285,
+                    2.455764766765234,
+                    2.453413037293326,
+                    2.4548293241081924
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.22",
+        "benchmark" : "io.github.ilaborie.MonteCarloBenchmark.monteCarlo_Kotlin_recursion",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "/Users/igor/.sdkman/candidates/java/19.3.0.r11-grl/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "11.0.5",
+        "vmName" : "OpenJDK 64-Bit GraalVM CE 19.3.0",
+        "vmVersion" : "11.0.5+10-jvmci-19.3-b05-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "count" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 24555.74107099782,
+            "scoreError" : 68.65436516307071,
+            "scoreConfidence" : [
+                24487.08670583475,
+                24624.395436160892
+            ],
+            "scorePercentiles" : {
+                "0.0" : 24435.16878917679,
+                "50.0" : 24562.63257429711,
+                "90.0" : 24589.727156146546,
+                "95.0" : 24590.010690879895,
+                "99.0" : 24590.010690879895,
+                "99.9" : 24590.010690879895,
+                "99.99" : 24590.010690879895,
+                "99.999" : 24590.010690879895,
+                "99.9999" : 24590.010690879895,
+                "100.0" : 24590.010690879895
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    24555.559593318027,
+                    24583.236090652834,
+                    24587.175343546405,
+                    24545.86939116014,
+                    24435.16878917679
+                ],
+                [
+                    24567.739798982726,
+                    24550.551111981327,
+                    24557.52534961149,
+                    24584.57455066857,
+                    24590.010690879895
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.22",
+        "benchmark" : "io.github.ilaborie.MonteCarloBenchmark.monteCarlo_Kotlin_recursion",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "/Users/igor/.sdkman/candidates/java/19.3.0.r11-grl/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "11.0.5",
+        "vmName" : "OpenJDK 64-Bit GraalVM CE 19.3.0",
+        "vmVersion" : "11.0.5+10-jvmci-19.3-b05-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "count" : "10000000"
+        },
+        "primaryMetric" : {
+            "score" : 2.454505125848894,
+            "scoreError" : 0.0026716053122753584,
+            "scoreConfidence" : [
+                2.451833520536619,
+                2.4571767311611694
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2.4506734056695563,
+                "50.0" : 2.4544867591156114,
+                "90.0" : 2.4566990963103943,
+                "95.0" : 2.4567357484577435,
+                "99.0" : 2.4567357484577435,
+                "99.9" : 2.4567357484577435,
+                "99.99" : 2.4567357484577435,
+                "99.999" : 2.4567357484577435,
+                "99.9999" : 2.4567357484577435,
+                "100.0" : 2.4567357484577435
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    2.4567357484577435,
+                    2.4563692269842514,
+                    2.454297754303634,
+                    2.4559826231920403,
+                    2.4550160696008123
+                ],
+                [
+                    2.4544612699065906,
+                    2.4545122483246327,
+                    2.453018002623372,
+                    2.4539849094263118,
+                    2.4506734056695563
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.22",
+        "benchmark" : "io.github.ilaborie.MonteCarloBenchmark.monteCarlo_Kotlin_sequence",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "/Users/igor/.sdkman/candidates/java/19.3.0.r11-grl/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "11.0.5",
+        "vmName" : "OpenJDK 64-Bit GraalVM CE 19.3.0",
+        "vmVersion" : "11.0.5+10-jvmci-19.3-b05-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "count" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 21876.43886429409,
+            "scoreError" : 21.12831020517061,
+            "scoreConfidence" : [
+                21855.31055408892,
+                21897.56717449926
+            ],
+            "scorePercentiles" : {
+                "0.0" : 21853.90483963755,
+                "50.0" : 21880.145507246896,
+                "90.0" : 21890.004069478477,
+                "95.0" : 21890.04630778548,
+                "99.0" : 21890.04630778548,
+                "99.9" : 21890.04630778548,
+                "99.99" : 21890.04630778548,
+                "99.999" : 21890.04630778548,
+                "99.9999" : 21890.04630778548,
+                "100.0" : 21890.04630778548
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    21853.90483963755,
+                    21867.084777580156,
+                    21883.183242641917,
+                    21887.97087023711,
+                    21874.06013121159
+                ],
+                [
+                    21877.10777185187,
+                    21887.33261703021,
+                    21889.623924715437,
+                    21854.074160249595,
+                    21890.04630778548
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.22",
+        "benchmark" : "io.github.ilaborie.MonteCarloBenchmark.monteCarlo_Kotlin_sequence",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "/Users/igor/.sdkman/candidates/java/19.3.0.r11-grl/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "11.0.5",
+        "vmName" : "OpenJDK 64-Bit GraalVM CE 19.3.0",
+        "vmVersion" : "11.0.5+10-jvmci-19.3-b05-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "count" : "10000000"
+        },
+        "primaryMetric" : {
+            "score" : 2.1699307015004003,
+            "scoreError" : 0.0021184696434681785,
+            "scoreConfidence" : [
+                2.1678122318569324,
+                2.1720491711438683
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2.167589337408098,
+                "50.0" : 2.1706326857273686,
+                "90.0" : 2.171176245707167,
+                "95.0" : 2.171179764152993,
+                "99.0" : 2.171179764152993,
+                "99.9" : 2.171179764152993,
+                "99.99" : 2.171179764152993,
+                "99.999" : 2.171179764152993,
+                "99.9999" : 2.171179764152993,
+                "100.0" : 2.171179764152993
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    2.171121134450173,
+                    2.170800109043197,
+                    2.17046526241154,
+                    2.1711445796947357,
+                    2.167589337408098
+                ],
+                [
+                    2.16883499152191,
+                    2.16912062716015,
+                    2.171179764152993,
+                    2.171027564423347,
+                    2.168023644737858
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.22",
+        "benchmark" : "io.github.ilaborie.MonteCarloBenchmark.monteCarlo_Kotlin_sequence_other",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "/Users/igor/.sdkman/candidates/java/19.3.0.r11-grl/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "11.0.5",
+        "vmName" : "OpenJDK 64-Bit GraalVM CE 19.3.0",
+        "vmVersion" : "11.0.5+10-jvmci-19.3-b05-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "count" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 54393.693516439256,
+            "scoreError" : 85.72598060188562,
+            "scoreConfidence" : [
+                54307.96753583737,
+                54479.41949704114
+            ],
+            "scorePercentiles" : {
+                "0.0" : 54319.1406322486,
+                "50.0" : 54380.71094943054,
+                "90.0" : 54465.28536959472,
+                "95.0" : 54466.26792131252,
+                "99.0" : 54466.26792131252,
+                "99.9" : 54466.26792131252,
+                "99.99" : 54466.26792131252,
+                "99.999" : 54466.26792131252,
+                "99.9999" : 54466.26792131252,
+                "100.0" : 54466.26792131252
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    54333.67410703139,
+                    54385.697490175815,
+                    54319.1406322486,
+                    54343.58166307396,
+                    54375.724408685266
+                ],
+                [
+                    54448.311132601084,
+                    54456.4424041345,
+                    54451.355385756564,
+                    54356.74001937279,
+                    54466.26792131252
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.22",
+        "benchmark" : "io.github.ilaborie.MonteCarloBenchmark.monteCarlo_Kotlin_sequence_other",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "/Users/igor/.sdkman/candidates/java/19.3.0.r11-grl/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "11.0.5",
+        "vmName" : "OpenJDK 64-Bit GraalVM CE 19.3.0",
+        "vmVersion" : "11.0.5+10-jvmci-19.3-b05-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "count" : "10000000"
+        },
+        "primaryMetric" : {
+            "score" : 5.357280436784334,
+            "scoreError" : 0.0221197095048518,
+            "scoreConfidence" : [
+                5.335160727279482,
+                5.3794001462891865
+            ],
+            "scorePercentiles" : {
+                "0.0" : 5.330854837012412,
+                "50.0" : 5.361143085746712,
+                "90.0" : 5.376689885564639,
+                "95.0" : 5.377657715983586,
+                "99.0" : 5.377657715983586,
+                "99.9" : 5.377657715983586,
+                "99.99" : 5.377657715983586,
+                "99.999" : 5.377657715983586,
+                "99.9999" : 5.377657715983586,
+                "100.0" : 5.377657715983586
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    5.359782776674999,
+                    5.3671324974631025,
+                    5.337845273973258,
+                    5.330854837012412,
+                    5.348680344370747
+                ],
+                [
+                    5.367979411794115,
+                    5.377657715983586,
+                    5.362503394818425,
+                    5.3531349294398325,
+                    5.367233186312856
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.22",
+        "benchmark" : "io.github.ilaborie.MonteCarloBenchmark.monteCarlo_Kotlin_sequence_other_alex",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "/Users/igor/.sdkman/candidates/java/19.3.0.r11-grl/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "11.0.5",
+        "vmName" : "OpenJDK 64-Bit GraalVM CE 19.3.0",
+        "vmVersion" : "11.0.5+10-jvmci-19.3-b05-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "count" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 2593.942969649411,
+            "scoreError" : 43.600194948336416,
+            "scoreConfidence" : [
+                2550.3427747010746,
+                2637.543164597748
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2560.794008132839,
+                "50.0" : 2597.9834587826836,
+                "90.0" : 2622.7726787044844,
+                "95.0" : 2622.978732086577,
+                "99.0" : 2622.978732086577,
+                "99.9" : 2622.978732086577,
+                "99.99" : 2622.978732086577,
+                "99.999" : 2622.978732086577,
+                "99.9999" : 2622.978732086577,
+                "100.0" : 2622.978732086577
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    2573.479068358359,
+                    2560.794008132839,
+                    2561.40133529969,
+                    2563.065754257021,
+                    2576.1868438266906
+                ],
+                [
+                    2620.0701950389744,
+                    2622.978732086577,
+                    2620.9181982656514,
+                    2620.755487489636,
+                    2619.780073738676
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.22",
+        "benchmark" : "io.github.ilaborie.MonteCarloBenchmark.monteCarlo_Kotlin_sequence_other_alex",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "/Users/igor/.sdkman/candidates/java/19.3.0.r11-grl/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "11.0.5",
+        "vmName" : "OpenJDK 64-Bit GraalVM CE 19.3.0",
+        "vmVersion" : "11.0.5+10-jvmci-19.3-b05-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "count" : "10000000"
+        },
+        "primaryMetric" : {
+            "score" : 0.22431502182091592,
+            "scoreError" : 0.010844884287655294,
+            "scoreConfidence" : [
+                0.21347013753326063,
+                0.2351599061085712
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.2150964567107342,
+                "50.0" : 0.22523700261245666,
+                "90.0" : 0.23271284634126205,
+                "95.0" : 0.23275075888468336,
+                "99.0" : 0.23275075888468336,
+                "99.9" : 0.23275075888468336,
+                "99.99" : 0.23275075888468336,
+                "99.999" : 0.23275075888468336,
+                "99.9999" : 0.23275075888468336,
+                "100.0" : 0.23275075888468336
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    0.2154946625854573,
+                    0.21702910364323832,
+                    0.22760539505950375,
+                    0.2150964567107342,
+                    0.21934062316841782
+                ],
+                [
+                    0.23275075888468336,
+                    0.23128152612793193,
+                    0.23237163345047032,
+                    0.22286861016540957,
+                    0.22931144841331252
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.22",
+        "benchmark" : "io.github.ilaborie.MonteCarloBenchmark.monteCarlo_Kotlin_sequence_parallel",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "/Users/igor/.sdkman/candidates/java/19.3.0.r11-grl/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "11.0.5",
+        "vmName" : "OpenJDK 64-Bit GraalVM CE 19.3.0",
+        "vmVersion" : "11.0.5+10-jvmci-19.3-b05-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "count" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 21046.970584870138,
+            "scoreError" : 29.16044754210859,
+            "scoreConfidence" : [
+                21017.81013732803,
+                21076.131032412246
+            ],
+            "scorePercentiles" : {
+                "0.0" : 21019.14276644434,
+                "50.0" : 21044.924728809674,
+                "90.0" : 21073.370496028143,
+                "95.0" : 21073.793740263103,
+                "99.0" : 21073.793740263103,
+                "99.9" : 21073.793740263103,
+                "99.99" : 21073.793740263103,
+                "99.999" : 21073.793740263103,
+                "99.9999" : 21073.793740263103,
+                "100.0" : 21073.793740263103
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    21054.095971311202,
+                    21067.11603865705,
+                    21073.793740263103,
+                    21069.561297913486,
+                    21051.31612296389
+                ],
+                [
+                    21036.784840457956,
+                    21019.14276644434,
+                    21022.764406991166,
+                    21038.533334655458,
+                    21036.59732904372
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.22",
+        "benchmark" : "io.github.ilaborie.MonteCarloBenchmark.monteCarlo_Kotlin_sequence_parallel",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "/Users/igor/.sdkman/candidates/java/19.3.0.r11-grl/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "11.0.5",
+        "vmName" : "OpenJDK 64-Bit GraalVM CE 19.3.0",
+        "vmVersion" : "11.0.5+10-jvmci-19.3-b05-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "count" : "10000000"
+        },
+        "primaryMetric" : {
+            "score" : 2.0899573017890822,
+            "scoreError" : 0.005428009920320438,
+            "scoreConfidence" : [
+                2.084529291868762,
+                2.0953853117094026
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2.080746265331471,
+                "50.0" : 2.090814392894622,
+                "90.0" : 2.0933203620180887,
+                "95.0" : 2.0933259122125354,
+                "99.0" : 2.0933259122125354,
+                "99.9" : 2.0933259122125354,
+                "99.99" : 2.0933259122125354,
+                "99.999" : 2.0933259122125354,
+                "99.9999" : 2.0933259122125354,
+                "100.0" : 2.0933259122125354
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    2.0895928469761356,
+                    2.090862579263704,
+                    2.0915783628368505,
+                    2.0887744781213278,
+                    2.09076620652554
+                ],
+                [
+                    2.080746265331471,
+                    2.091539586631158,
+                    2.0933259122125354,
+                    2.093270410268066,
+                    2.0891163697240365
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.22",
+        "benchmark" : "io.github.ilaborie.MonteCarloBenchmark.monteCarlo_Kotlin_sequence_parallel2",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "/Users/igor/.sdkman/candidates/java/19.3.0.r11-grl/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "11.0.5",
+        "vmName" : "OpenJDK 64-Bit GraalVM CE 19.3.0",
+        "vmVersion" : "11.0.5+10-jvmci-19.3-b05-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "count" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 54421.85035973046,
+            "scoreError" : 82.79116502572482,
+            "scoreConfidence" : [
+                54339.059194704736,
+                54504.64152475618
+            ],
+            "scorePercentiles" : {
+                "0.0" : 54364.071103276685,
+                "50.0" : 54397.12299785467,
+                "90.0" : 54487.995064174276,
+                "95.0" : 54488.099024853356,
+                "99.0" : 54488.099024853356,
+                "99.9" : 54488.099024853356,
+                "99.99" : 54488.099024853356,
+                "99.999" : 54488.099024853356,
+                "99.9999" : 54488.099024853356,
+                "100.0" : 54488.099024853356
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    54405.37575114438,
+                    54481.73814350926,
+                    54488.099024853356,
+                    54487.059418062556,
+                    54479.48309003512
+                ],
+                [
+                    54388.87024456496,
+                    54376.536995813716,
+                    54364.071103276685,
+                    54369.1828098535,
+                    54378.08701619104
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.22",
+        "benchmark" : "io.github.ilaborie.MonteCarloBenchmark.monteCarlo_Kotlin_sequence_parallel2",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "/Users/igor/.sdkman/candidates/java/19.3.0.r11-grl/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "11.0.5",
+        "vmName" : "OpenJDK 64-Bit GraalVM CE 19.3.0",
+        "vmVersion" : "11.0.5+10-jvmci-19.3-b05-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "count" : "10000000"
+        },
+        "primaryMetric" : {
+            "score" : 5.365864650735682,
+            "scoreError" : 0.012226459336423839,
+            "scoreConfidence" : [
+                5.353638191399258,
+                5.3780911100721065
+            ],
+            "scorePercentiles" : {
+                "0.0" : 5.348839339646903,
+                "50.0" : 5.367006390073777,
+                "90.0" : 5.3758785662893125,
+                "95.0" : 5.376114355619963,
+                "99.0" : 5.376114355619963,
+                "99.9" : 5.376114355619963,
+                "99.99" : 5.376114355619963,
+                "99.999" : 5.376114355619963,
+                "99.9999" : 5.376114355619963,
+                "100.0" : 5.376114355619963
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    5.363700041104,
+                    5.373756462313458,
+                    5.35865137810959,
+                    5.361592785009438,
+                    5.367215362722147
+                ],
+                [
+                    5.370211100701112,
+                    5.3717682647048095,
+                    5.376114355619963,
+                    5.366797417425406,
+                    5.348839339646903
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.22",
+        "benchmark" : "io.github.ilaborie.MonteCarloBenchmark.monteCarlo_Scala_collection",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "/Users/igor/.sdkman/candidates/java/19.3.0.r11-grl/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "11.0.5",
+        "vmName" : "OpenJDK 64-Bit GraalVM CE 19.3.0",
+        "vmVersion" : "11.0.5+10-jvmci-19.3-b05-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "count" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 21321.67863757557,
+            "scoreError" : 14.372139056368516,
+            "scoreConfidence" : [
+                21307.3064985192,
+                21336.05077663194
+            ],
+            "scorePercentiles" : {
+                "0.0" : 21304.152446344437,
+                "50.0" : 21324.153591955,
+                "90.0" : 21332.96356074596,
+                "95.0" : 21333.250198301954,
+                "99.0" : 21333.250198301954,
+                "99.9" : 21333.250198301954,
+                "99.99" : 21333.250198301954,
+                "99.999" : 21333.250198301954,
+                "99.9999" : 21333.250198301954,
+                "100.0" : 21333.250198301954
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    21322.88766045635,
+                    21327.235565053714,
+                    21306.661115292885,
+                    21304.152446344437,
+                    21325.575843720006
+                ],
+                [
+                    21325.419523453653,
+                    21330.383822742027,
+                    21322.49987106009,
+                    21333.250198301954,
+                    21318.720329330587
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.22",
+        "benchmark" : "io.github.ilaborie.MonteCarloBenchmark.monteCarlo_Scala_collection",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "/Users/igor/.sdkman/candidates/java/19.3.0.r11-grl/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "11.0.5",
+        "vmName" : "OpenJDK 64-Bit GraalVM CE 19.3.0",
+        "vmVersion" : "11.0.5+10-jvmci-19.3-b05-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "count" : "10000000"
+        },
+        "primaryMetric" : {
+            "score" : 2.0839696841760675,
+            "scoreError" : 0.016398371880908175,
+            "scoreConfidence" : [
+                2.0675713122951596,
+                2.1003680560569755
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2.068560690539483,
+                "50.0" : 2.085539990553202,
+                "90.0" : 2.096685393726031,
+                "95.0" : 2.0967793442014933,
+                "99.0" : 2.0967793442014933,
+                "99.9" : 2.0967793442014933,
+                "99.99" : 2.0967793442014933,
+                "99.999" : 2.0967793442014933,
+                "99.9999" : 2.0967793442014933,
+                "100.0" : 2.0967793442014933
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    2.068560690539483,
+                    2.0858114167643955,
+                    2.070022074863265,
+                    2.070762863104553,
+                    2.087384028775202
+                ],
+                [
+                    2.0852685643420084,
+                    2.0954017468937702,
+                    2.095839839446868,
+                    2.083866272829635,
+                    2.0967793442014933
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.22",
+        "benchmark" : "io.github.ilaborie.MonteCarloBenchmark.monteCarlo_Scala_collection_parallel",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "/Users/igor/.sdkman/candidates/java/19.3.0.r11-grl/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "11.0.5",
+        "vmName" : "OpenJDK 64-Bit GraalVM CE 19.3.0",
+        "vmVersion" : "11.0.5+10-jvmci-19.3-b05-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "count" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 2205.0609669568153,
+            "scoreError" : 98.07100363897675,
+            "scoreConfidence" : [
+                2106.9899633178384,
+                2303.131970595792
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2080.01094828327,
+                "50.0" : 2218.3813271928548,
+                "90.0" : 2301.4255612614293,
+                "95.0" : 2307.5577827688526,
+                "99.0" : 2307.5577827688526,
+                "99.9" : 2307.5577827688526,
+                "99.99" : 2307.5577827688526,
+                "99.999" : 2307.5577827688526,
+                "99.9999" : 2307.5577827688526,
+                "100.0" : 2307.5577827688526
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    2080.01094828327,
+                    2219.7984693805215,
+                    2246.2355676946204,
+                    2234.1162296417683,
+                    2206.6633497650773
+                ],
+                [
+                    2307.5577827688526,
+                    2112.745396514738,
+                    2204.041718005315,
+                    2222.4760225087985,
+                    2216.9641850051876
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.22",
+        "benchmark" : "io.github.ilaborie.MonteCarloBenchmark.monteCarlo_Scala_collection_parallel",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "/Users/igor/.sdkman/candidates/java/19.3.0.r11-grl/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "11.0.5",
+        "vmName" : "OpenJDK 64-Bit GraalVM CE 19.3.0",
+        "vmVersion" : "11.0.5+10-jvmci-19.3-b05-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "count" : "10000000"
+        },
+        "primaryMetric" : {
+            "score" : 0.24011443243964886,
+            "scoreError" : 0.009017159067720526,
+            "scoreConfidence" : [
+                0.23109727337192834,
+                0.24913159150736938
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.23275058583846145,
+                "50.0" : 0.23993117688261223,
+                "90.0" : 0.2522707935252424,
+                "95.0" : 0.2530843864705218,
+                "99.0" : 0.2530843864705218,
+                "99.9" : 0.2530843864705218,
+                "99.99" : 0.2530843864705218,
+                "99.999" : 0.2530843864705218,
+                "99.9999" : 0.2530843864705218,
+                "100.0" : 0.2530843864705218
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    0.2530843864705218,
+                    0.24494845701772794,
+                    0.2416074424960181,
+                    0.2419933434840996,
+                    0.23853135515678148
+                ],
+                [
+                    0.24133099860844298,
+                    0.2370682147876033,
+                    0.2341263065010374,
+                    0.23570323403579432,
+                    0.23275058583846145
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.22",
+        "benchmark" : "io.github.ilaborie.MonteCarloBenchmark.monteCarlo_Scala_for",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "/Users/igor/.sdkman/candidates/java/19.3.0.r11-grl/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "11.0.5",
+        "vmName" : "OpenJDK 64-Bit GraalVM CE 19.3.0",
+        "vmVersion" : "11.0.5+10-jvmci-19.3-b05-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "count" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 24502.085395094706,
+            "scoreError" : 33.575079642752385,
+            "scoreConfidence" : [
+                24468.510315451953,
+                24535.66047473746
+            ],
+            "scorePercentiles" : {
+                "0.0" : 24456.443788641558,
+                "50.0" : 24498.58643444208,
+                "90.0" : 24528.138491456604,
+                "95.0" : 24528.306447979725,
+                "99.0" : 24528.306447979725,
+                "99.9" : 24528.306447979725,
+                "99.99" : 24528.306447979725,
+                "99.999" : 24528.306447979725,
+                "99.9999" : 24528.306447979725,
+                "100.0" : 24528.306447979725
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    24496.92461832819,
+                    24456.443788641558,
+                    24500.24825055597,
+                    24496.842809962473,
+                    24495.971857770557
+                ],
+                [
+                    24524.11341480896,
+                    24528.306447979725,
+                    24482.739196682942,
+                    24512.636683468198,
+                    24526.6268827485
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.22",
+        "benchmark" : "io.github.ilaborie.MonteCarloBenchmark.monteCarlo_Scala_for",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "/Users/igor/.sdkman/candidates/java/19.3.0.r11-grl/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "11.0.5",
+        "vmName" : "OpenJDK 64-Bit GraalVM CE 19.3.0",
+        "vmVersion" : "11.0.5+10-jvmci-19.3-b05-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "count" : "10000000"
+        },
+        "primaryMetric" : {
+            "score" : 2.4479551302518345,
+            "scoreError" : 0.0017223406547437073,
+            "scoreConfidence" : [
+                2.446232789597091,
+                2.449677470906578
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2.4459654857144293,
+                "50.0" : 2.44816232146953,
+                "90.0" : 2.449093672280562,
+                "95.0" : 2.4490984861517036,
+                "99.0" : 2.4490984861517036,
+                "99.9" : 2.4490984861517036,
+                "99.99" : 2.4490984861517036,
+                "99.999" : 2.4490984861517036,
+                "99.9999" : 2.4490984861517036,
+                "100.0" : 2.4490984861517036
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    2.447945491974518,
+                    2.4488976508017526,
+                    2.4480544261455917,
+                    2.4490984861517036,
+                    2.4459654857144293
+                ],
+                [
+                    2.447103300052216,
+                    2.446315124593868,
+                    2.449050347440288,
+                    2.448270216793469,
+                    2.448850772850511
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.22",
+        "benchmark" : "io.github.ilaborie.MonteCarloBenchmark.monteCarlo_Scala_lazylist",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "/Users/igor/.sdkman/candidates/java/19.3.0.r11-grl/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "11.0.5",
+        "vmName" : "OpenJDK 64-Bit GraalVM CE 19.3.0",
+        "vmVersion" : "11.0.5+10-jvmci-19.3-b05-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "count" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 13254.985997833874,
+            "scoreError" : 11.83710079485095,
+            "scoreConfidence" : [
+                13243.148897039022,
+                13266.823098628725
+            ],
+            "scorePercentiles" : {
+                "0.0" : 13237.241917204718,
+                "50.0" : 13258.266226915286,
+                "90.0" : 13262.01407324418,
+                "95.0" : 13262.137038654517,
+                "99.0" : 13262.137038654517,
+                "99.9" : 13262.137038654517,
+                "99.99" : 13262.137038654517,
+                "99.999" : 13262.137038654517,
+                "99.9999" : 13262.137038654517,
+                "100.0" : 13262.137038654517
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    13258.072547283087,
+                    13260.907384551136,
+                    13237.241917204718,
+                    13250.37239066365,
+                    13258.459906547483
+                ],
+                [
+                    13262.137038654517,
+                    13259.68348705155,
+                    13257.603974707952,
+                    13246.845974678961,
+                    13258.535356995706
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.22",
+        "benchmark" : "io.github.ilaborie.MonteCarloBenchmark.monteCarlo_Scala_lazylist",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "/Users/igor/.sdkman/candidates/java/19.3.0.r11-grl/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "11.0.5",
+        "vmName" : "OpenJDK 64-Bit GraalVM CE 19.3.0",
+        "vmVersion" : "11.0.5+10-jvmci-19.3-b05-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "count" : "10000000"
+        },
+        "primaryMetric" : {
+            "score" : 0.25988062848541543,
+            "scoreError" : 0.01456171774206024,
+            "scoreConfidence" : [
+                0.24531891074335518,
+                0.27444234622747565
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.24471246050640252,
+                "50.0" : 0.26112497871914087,
+                "90.0" : 0.2706787597235815,
+                "95.0" : 0.27068709369295973,
+                "99.0" : 0.27068709369295973,
+                "99.9" : 0.27068709369295973,
+                "99.99" : 0.27068709369295973,
+                "99.999" : 0.27068709369295973,
+                "99.9999" : 0.27068709369295973,
+                "100.0" : 0.27068709369295973
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    0.2698170750586286,
+                    0.2545153493037958,
+                    0.27068709369295973,
+                    0.2706037539991778,
+                    0.2534276423789814
+                ],
+                [
+                    0.26056432521271067,
+                    0.24701778631636034,
+                    0.2616856322255711,
+                    0.26577516615956637,
+                    0.24471246050640252
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.22",
+        "benchmark" : "io.github.ilaborie.MonteCarloBenchmark.monteCarlo_Scala_lazylist_parallel",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "/Users/igor/.sdkman/candidates/java/19.3.0.r11-grl/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "11.0.5",
+        "vmName" : "OpenJDK 64-Bit GraalVM CE 19.3.0",
+        "vmVersion" : "11.0.5+10-jvmci-19.3-b05-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "count" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 5425.286709665894,
+            "scoreError" : 26.62611432767248,
+            "scoreConfidence" : [
+                5398.660595338221,
+                5451.912823993566
+            ],
+            "scorePercentiles" : {
+                "0.0" : 5397.369443268177,
+                "50.0" : 5428.034109286857,
+                "90.0" : 5449.8386525348,
+                "95.0" : 5450.846108442159,
+                "99.0" : 5450.846108442159,
+                "99.9" : 5450.846108442159,
+                "99.99" : 5450.846108442159,
+                "99.999" : 5450.846108442159,
+                "99.9999" : 5450.846108442159,
+                "100.0" : 5450.846108442159
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    5440.771549368568,
+                    5434.354254153144,
+                    5400.118450717746,
+                    5421.345232520571,
+                    5397.369443268177
+                ],
+                [
+                    5450.846108442159,
+                    5439.002116049413,
+                    5412.991723565451,
+                    5423.942445319848,
+                    5432.125773253864
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.22",
+        "benchmark" : "io.github.ilaborie.MonteCarloBenchmark.monteCarlo_Scala_lazylist_parallel",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "/Users/igor/.sdkman/candidates/java/19.3.0.r11-grl/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "11.0.5",
+        "vmName" : "OpenJDK 64-Bit GraalVM CE 19.3.0",
+        "vmVersion" : "11.0.5+10-jvmci-19.3-b05-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "count" : "10000000"
+        },
+        "primaryMetric" : {
+            "score" : 0.3064462282573993,
+            "scoreError" : 0.009216778119263589,
+            "scoreConfidence" : [
+                0.29722945013813573,
+                0.3156630063766629
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.29863705730733037,
+                "50.0" : 0.30712099795665027,
+                "90.0" : 0.31525205024735,
+                "95.0" : 0.3153627147752688,
+                "99.0" : 0.3153627147752688,
+                "99.9" : 0.3153627147752688,
+                "99.99" : 0.3153627147752688,
+                "99.999" : 0.3153627147752688,
+                "99.9999" : 0.3153627147752688,
+                "100.0" : 0.3153627147752688
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    0.3069497523946734,
+                    0.29863705730733037,
+                    0.3153627147752688,
+                    0.3072922435186271,
+                    0.2997191084966014
+                ],
+                [
+                    0.3012718102174824,
+                    0.31150388138146634,
+                    0.3085144219491023,
+                    0.3009552230373609,
+                    0.31425606949608054
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.22",
+        "benchmark" : "io.github.ilaborie.MonteCarloBenchmark.monteCarlo_Scala_lazylist_parallel2",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "/Users/igor/.sdkman/candidates/java/19.3.0.r11-grl/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "11.0.5",
+        "vmName" : "OpenJDK 64-Bit GraalVM CE 19.3.0",
+        "vmVersion" : "11.0.5+10-jvmci-19.3-b05-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "count" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 6494.826082311574,
+            "scoreError" : 411.45464050190697,
+            "scoreConfidence" : [
+                6083.371441809667,
+                6906.280722813482
+            ],
+            "scorePercentiles" : {
+                "0.0" : 6193.1706599659865,
+                "50.0" : 6507.724425507902,
+                "90.0" : 6780.372055411669,
+                "95.0" : 6783.3251735805925,
+                "99.0" : 6783.3251735805925,
+                "99.9" : 6783.3251735805925,
+                "99.99" : 6783.3251735805925,
+                "99.999" : 6783.3251735805925,
+                "99.9999" : 6783.3251735805925,
+                "100.0" : 6783.3251735805925
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    6276.575264364456,
+                    6261.632523934567,
+                    6193.1706599659865,
+                    6228.493589881485,
+                    6228.7632957829865
+                ],
+                [
+                    6738.873586651348,
+                    6783.3251735805925,
+                    6740.312152547768,
+                    6743.320584515201,
+                    6753.793991891353
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.22",
+        "benchmark" : "io.github.ilaborie.MonteCarloBenchmark.monteCarlo_Scala_lazylist_parallel2",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "/Users/igor/.sdkman/candidates/java/19.3.0.r11-grl/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "11.0.5",
+        "vmName" : "OpenJDK 64-Bit GraalVM CE 19.3.0",
+        "vmVersion" : "11.0.5+10-jvmci-19.3-b05-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "count" : "10000000"
+        },
+        "primaryMetric" : {
+            "score" : 0.3477413874779816,
+            "scoreError" : 0.01748515055267843,
+            "scoreConfidence" : [
+                0.3302562369253032,
+                0.36522653803066
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.3312415547294987,
+                "50.0" : 0.34803097344536316,
+                "90.0" : 0.36441616340278127,
+                "95.0" : 0.36467183532262454,
+                "99.0" : 0.36467183532262454,
+                "99.9" : 0.36467183532262454,
+                "99.99" : 0.36467183532262454,
+                "99.999" : 0.36467183532262454,
+                "99.9999" : 0.36467183532262454,
+                "100.0" : 0.36467183532262454
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    0.35388173189322536,
+                    0.3312415547294987,
+                    0.3451625930750445,
+                    0.3508993538156819,
+                    0.332926097936131
+                ],
+                [
+                    0.36467183532262454,
+                    0.33958051260002337,
+                    0.3554264216489206,
+                    0.36211511612419167,
+                    0.3415086576344739
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.22",
+        "benchmark" : "io.github.ilaborie.MonteCarloBenchmark.monteCarlo_Scala_recursion",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "/Users/igor/.sdkman/candidates/java/19.3.0.r11-grl/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "11.0.5",
+        "vmName" : "OpenJDK 64-Bit GraalVM CE 19.3.0",
+        "vmVersion" : "11.0.5+10-jvmci-19.3-b05-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "count" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 24874.793829890816,
+            "scoreError" : 15.11147703411045,
+            "scoreConfidence" : [
+                24859.682352856704,
+                24889.905306924928
+            ],
+            "scorePercentiles" : {
+                "0.0" : 24853.18836569614,
+                "50.0" : 24874.666435878746,
+                "90.0" : 24889.608506361124,
+                "95.0" : 24890.372770607613,
+                "99.0" : 24890.372770607613,
+                "99.9" : 24890.372770607613,
+                "99.99" : 24890.372770607613,
+                "99.999" : 24890.372770607613,
+                "99.9999" : 24890.372770607613,
+                "100.0" : 24890.372770607613
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    24872.228832774574,
+                    24875.801117673065,
+                    24869.34672302665,
+                    24882.730128142724,
+                    24882.11069957207
+                ],
+                [
+                    24873.531754084423,
+                    24878.425902976443,
+                    24870.202004354425,
+                    24890.372770607613,
+                    24853.18836569614
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.22",
+        "benchmark" : "io.github.ilaborie.MonteCarloBenchmark.monteCarlo_Scala_recursion",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "/Users/igor/.sdkman/candidates/java/19.3.0.r11-grl/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "11.0.5",
+        "vmName" : "OpenJDK 64-Bit GraalVM CE 19.3.0",
+        "vmVersion" : "11.0.5+10-jvmci-19.3-b05-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "count" : "10000000"
+        },
+        "primaryMetric" : {
+            "score" : 2.5186076020734456,
+            "scoreError" : 0.0075624201363465515,
+            "scoreConfidence" : [
+                2.511045181937099,
+                2.5261700222097923
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2.5048166004730215,
+                "50.0" : 2.5207085827592683,
+                "90.0" : 2.5210723111087185,
+                "95.0" : 2.5210748397945757,
+                "99.0" : 2.5210748397945757,
+                "99.9" : 2.5210748397945757,
+                "99.99" : 2.5210748397945757,
+                "99.999" : 2.5210748397945757,
+                "99.9999" : 2.5210748397945757,
+                "100.0" : 2.5210748397945757
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    2.5048166004730215,
+                    2.521049552936004,
+                    2.5210189227894633,
+                    2.5199616179024527,
+                    2.520865594044116
+                ],
+                [
+                    2.5205515714744204,
+                    2.5177168763747875,
+                    2.5180966704782795,
+                    2.5210748397945757,
+                    2.5209237744673394
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.22",
+        "benchmark" : "io.github.ilaborie.MonteCarloBenchmark.monteCarlo_Scala_stream",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "/Users/igor/.sdkman/candidates/java/19.3.0.r11-grl/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "11.0.5",
+        "vmName" : "OpenJDK 64-Bit GraalVM CE 19.3.0",
+        "vmVersion" : "11.0.5+10-jvmci-19.3-b05-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "count" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 11750.590109704695,
+            "scoreError" : 43.728597556996846,
+            "scoreConfidence" : [
+                11706.861512147698,
+                11794.318707261693
+            ],
+            "scorePercentiles" : {
+                "0.0" : 11710.120951016925,
+                "50.0" : 11739.827388165137,
+                "90.0" : 11787.296990785391,
+                "95.0" : 11787.6342577297,
+                "99.0" : 11787.6342577297,
+                "99.9" : 11787.6342577297,
+                "99.99" : 11787.6342577297,
+                "99.999" : 11787.6342577297,
+                "99.9999" : 11787.6342577297,
+                "100.0" : 11787.6342577297
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    11782.498084005527,
+                    11784.261588286612,
+                    11787.6342577297,
+                    11775.2001796343,
+                    11746.51979086346
+                ],
+                [
+                    11725.255036639026,
+                    11729.540126893635,
+                    11733.134985466813,
+                    11731.736096510973,
+                    11710.120951016925
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.22",
+        "benchmark" : "io.github.ilaborie.MonteCarloBenchmark.monteCarlo_Scala_stream",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "/Users/igor/.sdkman/candidates/java/19.3.0.r11-grl/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "11.0.5",
+        "vmName" : "OpenJDK 64-Bit GraalVM CE 19.3.0",
+        "vmVersion" : "11.0.5+10-jvmci-19.3-b05-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "count" : "10000000"
+        },
+        "primaryMetric" : {
+            "score" : 0.40721285712672184,
+            "scoreError" : 0.007952349974999703,
+            "scoreConfidence" : [
+                0.3992605071517221,
+                0.41516520710172156
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.39698157173870435,
+                "50.0" : 0.40844828568277214,
+                "90.0" : 0.4124499661531934,
+                "95.0" : 0.4124967665533461,
+                "99.0" : 0.4124967665533461,
+                "99.9" : 0.4124967665533461,
+                "99.99" : 0.4124967665533461,
+                "99.999" : 0.4124967665533461,
+                "99.9999" : 0.4124967665533461,
+                "100.0" : 0.4124967665533461
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    0.4062826915113798,
+                    0.4089372213601043,
+                    0.40795935000544004,
+                    0.40743376579164026,
+                    0.4124967665533461
+                ],
+                [
+                    0.4103292930885378,
+                    0.39698157173870435,
+                    0.4106616671274162,
+                    0.41202876255181886,
+                    0.39901748153883076
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.22",
+        "benchmark" : "io.github.ilaborie.MonteCarloBenchmark.monteCarlo_Scala_stream_parallel",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "/Users/igor/.sdkman/candidates/java/19.3.0.r11-grl/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "11.0.5",
+        "vmName" : "OpenJDK 64-Bit GraalVM CE 19.3.0",
+        "vmVersion" : "11.0.5+10-jvmci-19.3-b05-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "count" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 4855.346548508716,
+            "scoreError" : 54.90332530835866,
+            "scoreConfidence" : [
+                4800.443223200357,
+                4910.249873817075
+            ],
+            "scorePercentiles" : {
+                "0.0" : 4806.3508075592235,
+                "50.0" : 4849.414019166003,
+                "90.0" : 4918.276512569166,
+                "95.0" : 4918.284032246203,
+                "99.0" : 4918.284032246203,
+                "99.9" : 4918.284032246203,
+                "99.99" : 4918.284032246203,
+                "99.999" : 4918.284032246203,
+                "99.9999" : 4918.284032246203,
+                "100.0" : 4918.284032246203
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    4918.208835475829,
+                    4918.284032246203,
+                    4854.506282868585,
+                    4853.798800817488,
+                    4841.455320854065
+                ],
+                [
+                    4852.648464925169,
+                    4824.517871073204,
+                    4846.179573406836,
+                    4806.3508075592235,
+                    4837.515495860561
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.22",
+        "benchmark" : "io.github.ilaborie.MonteCarloBenchmark.monteCarlo_Scala_stream_parallel",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "/Users/igor/.sdkman/candidates/java/19.3.0.r11-grl/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "11.0.5",
+        "vmName" : "OpenJDK 64-Bit GraalVM CE 19.3.0",
+        "vmVersion" : "11.0.5+10-jvmci-19.3-b05-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "count" : "10000000"
+        },
+        "primaryMetric" : {
+            "score" : 0.37369264399366836,
+            "scoreError" : 0.020203374996286882,
+            "scoreConfidence" : [
+                0.3534892689973815,
+                0.39389601898995524
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.35325004801637383,
+                "50.0" : 0.37539892003781744,
+                "90.0" : 0.38920762037007495,
+                "95.0" : 0.3894560605274523,
+                "99.0" : 0.3894560605274523,
+                "99.9" : 0.3894560605274523,
+                "99.99" : 0.3894560605274523,
+                "99.999" : 0.3894560605274523,
+                "99.9999" : 0.3894560605274523,
+                "100.0" : 0.3894560605274523
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    0.3830670110344351,
+                    0.3894560605274523,
+                    0.36219465177618293,
+                    0.3855620080418968,
+                    0.38697165895367897
+                ],
+                [
+                    0.3716573754001469,
+                    0.37690852515030937,
+                    0.35325004801637383,
+                    0.3738893149253255,
+                    0.35396978611088165
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.22",
+        "benchmark" : "io.github.ilaborie.MonteCarloBenchmark.monteCarlo_Scala_stream_parallel2",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "/Users/igor/.sdkman/candidates/java/19.3.0.r11-grl/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "11.0.5",
+        "vmName" : "OpenJDK 64-Bit GraalVM CE 19.3.0",
+        "vmVersion" : "11.0.5+10-jvmci-19.3-b05-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "count" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 6182.747085892009,
+            "scoreError" : 182.60743126199606,
+            "scoreConfidence" : [
+                6000.139654630013,
+                6365.3545171540045
+            ],
+            "scorePercentiles" : {
+                "0.0" : 6051.28176158247,
+                "50.0" : 6166.8678120677,
+                "90.0" : 6366.663076323104,
+                "95.0" : 6373.741538587365,
+                "99.0" : 6373.741538587365,
+                "99.9" : 6373.741538587365,
+                "99.99" : 6373.741538587365,
+                "99.999" : 6373.741538587365,
+                "99.9999" : 6373.741538587365,
+                "100.0" : 6373.741538587365
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    6373.741538587365,
+                    6302.956915944756,
+                    6270.723494208978,
+                    6283.387306191986,
+                    6225.599409383717
+                ],
+                [
+                    6065.912065912374,
+                    6051.28176158247,
+                    6108.136214751683,
+                    6075.693540642656,
+                    6070.038611714099
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.22",
+        "benchmark" : "io.github.ilaborie.MonteCarloBenchmark.monteCarlo_Scala_stream_parallel2",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "/Users/igor/.sdkman/candidates/java/19.3.0.r11-grl/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "11.0.5",
+        "vmName" : "OpenJDK 64-Bit GraalVM CE 19.3.0",
+        "vmVersion" : "11.0.5+10-jvmci-19.3-b05-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "count" : "10000000"
+        },
+        "primaryMetric" : {
+            "score" : 0.4155123127010431,
+            "scoreError" : 0.022127730750889106,
+            "scoreConfidence" : [
+                0.393384581950154,
+                0.4376400434519322
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.3931046459857419,
+                "50.0" : 0.41297339621687235,
+                "90.0" : 0.43737857419843823,
+                "95.0" : 0.4379779502597275,
+                "99.0" : 0.4379779502597275,
+                "99.9" : 0.4379779502597275,
+                "99.99" : 0.4379779502597275,
+                "99.999" : 0.4379779502597275,
+                "99.9999" : 0.4379779502597275,
+                "100.0" : 0.4379779502597275
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    0.4319841896468347,
+                    0.4093232829121576,
+                    0.4174646258424953,
+                    0.4379779502597275,
+                    0.39905807752028866
+                ],
+                [
+                    0.40848479359082995,
+                    0.41521846559168213,
+                    0.431778768818611,
+                    0.3931046459857419,
+                    0.4107283268420625
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+]
+
+
